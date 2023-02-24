@@ -6,7 +6,9 @@
   "scripts": {
     "start": "nodemon ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./src"
+    "lint": "./src",
+    "start-prod": "NODE_ENV=production node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js"
   },
   "keywords": [],
   "author": "",
